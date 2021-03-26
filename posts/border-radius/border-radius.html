@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <!--Fonts-->
+
+        <!--Components-->
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/header.css">
+        <link rel="stylesheet" href="../../css/footer.css">>
+        <!--Components-->
+        
+        <!--Only This Page-->
+        <link rel="stylesheet" href="css/style-home.css">
+        <!--Only This Page-->
+
+        <title>Border-Radius Previewer</title>
+    </head>
+    <body>
+        <header>
+            <h1>Border-Radius Previewer</h1>
+        </header>
+
+        <main>
+            <section class="HowWorks">
+                <h1>Como funciona o Border Radius?</h1>
+                <p>O Border Radius é uma propriedade, em CSS, usada para arredondar bordas. Nela, temos quatro parâmetros, um para a borda superior esquerda, superior direita, inferior esquerda e inferior direita.</p>
+            </section>
+
+            <section class="about">
+                <h1> Coloque um número em cada border-radius. (Será convertido para pixels)
+                </h1>
+            </section>
+
+            <section class="select-radius">
+                <div class="select-item">
+                    <label for="">Border-Radius - Superior Esquerdo</label>
+                    <input type="text" name="" id="se">
+                </div>
+                
+                <div class="select-item">
+                    <label for="">Border-Radius - Superior Direito</label>
+                    <input type="text" name="" id="sd">
+                </div>
+                
+                <div class="select-item">
+                    <label for="">Border-Radius - Inferior Esquerdo</label>
+                    <input type="text" name="" id="ie">
+                    
+                </div>
+                
+                <div class="select-item">
+                    <label for="">Border-Radius - Inferior Direito</label>
+                    <input type="text" name="" id="id">
+                </div>
+            </section>
+
+            <section class="show-radius">
+                <div class="box" id="box-radius">
+                    <script src="js/do-radius.js">
+                    </script>
+                </div>
+            </section>
+
+            <section class="copy-code">
+                <h1>CSS Element:</h1>
+                <p class="copy_code_id" >border-radius: none<p>
+            </section>
+        </main>
+
+        <footer>
+            <h3>Created by: ErickDev.</h3>
+            <a href="https://github.com/ErickGameDev/Border-radius-Previewer" target="_blank">GitHub</a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <!--Fonts-->
+
+        <!--Components-->
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/header.css">
+        <link rel="stylesheet" href="../../css/footer.css">>
+        <!--Components-->
+        
+        <!--Only This Page-->
+        <link rel="stylesheet" href="css/style-home.css">
+        <!--Only This Page-->
+        <title>Box Shadow Previewer</title>
+    </head>
+    <body>
+        <header>
+            <h1>Box Shadow Previewer</h1>
+        </header>
+
+        <main>
+            <section class="HowWorks">
+                <h1>Como funciona o Box Shadow?</h1>
+                <p>O Box Shadow é uma propriedade, em CSS, usada para criar sombras em elementos. Nela, temos cinco parâmetros, o tamannho da sombra de cima/baixo, a sombra da direita/esquerda, o tamanho do borrado, e a cor da sombra.</p>
+            </section>
+
+
+            <section class="how-to-use">
+                <h1>Coloque um número em cada caixa, e logo após, use o botão para ver o border-radius.</h1>
+            </section>
+
+            <section class="select-size">                
+                <div class="select-item">
+                    <label for="">Box Shadow - Direita/Esquerda</label>
+                    <input type="text" name="" id="dir_esq">
+                </div>
+                
+                <div class="select-item">
+                    <label for="">Box Shadow - Inferior/Superior</label>
+                    <input type="text" name="" id="inf_sup">
+                </div>
+                
+                <div class="select-item">
+                    <label for="">Box Shadow - Borrado</label>
+                    <input type="text" name="" id="bor">
+                    
+                </div>
+                
+                <div class="select-item">
+                    <label for="">Box Shadow - Cor (Em Hexadecimal)</label>
+                    <input type="text" name="" id="color">
+                </div>
+            </section>
+
+            <section class="show-shadow">
+                <div class="box" id="box-shadow">
+                    <script src="js/calculate-shadow.js">
+                    </script>
+                </div>
+            </section>
+
+            <section class="copy-code">
+                <h1>CSS Element:</h1>
+                <p class="copy_code_id"> box-shadow: none<p>
+            </section>
+        </main>
+
+        <footer>
+            <h3>Created by: ErickDev.</h3>
+            <a href="https://github.com/ErickGameDev/Box-Shadow-Previewer" target="_blank">GitHub</a>
+        </footer>   
+    </body>
+</html>

@@ -1,0 +1,89 @@
+main {
+    margin: 0 30%;
+}
+
+.about h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*How Works*/
+/*How Works*/
+/*How Works*/
+
+.HowWorks {
+    text-align: center;
+    margin: 30px;
+}
+
+.HowWorks p {
+    font-size: 17px;
+}
+
+/*/How Works*/
+/*/How Works*/
+/*/How Works*/
+
+/*Select-Radius*/
+/*Select-Radius*/
+/*Select-Radius*/
+
+.select-item {
+    margin: 10px 10px;
+}
+
+.select-item input {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.select-item label {
+    text-align: center;
+}
+
+.select-item input, label {
+    display: block;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/*/Select-Radius*/
+/*/Select-Radius*/
+/*/Select-Radius*/
+
+/*Show-Radius*/
+/*Show-Radius*/
+/*Show-Radius*/
+
+.show-radius {
+    margin: 50px 0;
+}
+
+.box {
+    width: 40%;
+    padding: 10%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: gray;
+}
+
+/*/Show-Radius*/
+/*/Show-Radius*/
+/*/Show-Radius*/
+
+/*Copy Code*/
+/*Copy Code*/
+/*Copy Code*/
+
+.copy-code {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*/Copy Code*/
+/*/Copy Code*/
+/*/Copy Code*/

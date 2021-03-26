@@ -1,0 +1,82 @@
+/*How Works*/
+/*How Works*/
+/*How Works*/
+
+.HowWorks {
+    text-align: center;
+    margin: 30px;
+}
+
+.HowWorks p {
+    font-size: 17px;
+}
+
+/*/How Works*/
+/*/How Works*/
+/*/How Works*/
+
+main {
+    margin: 0 30%;
+    margin-top: 30px;
+}
+
+.how-to-use {
+    text-align: center;
+}
+
+#size-box {
+    margin: 30px 0;
+}
+
+.select-item {
+    margin: 10px 10px;
+}
+
+.select-item input {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.select-item label {
+    text-align: center;
+}
+
+.select-item input, label {
+    display: block;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+
+/*Show-Shadow*/
+/*Show-Shadow*/
+/*Show-Shadow*/
+
+.show-Shadow {
+    margin: 50px 0;
+}
+
+.box {
+    width: 40%;
+    padding: 10%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+/*/Show-Shadow*/
+/*/Show-Shadow*/
+/*/Show-Shadow*/
+
+.copy-code {
+    text-align: center;
+    margin-bottom: 30px;
+}
